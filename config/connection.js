@@ -11,3 +11,5 @@ const sequelize = new Sequelize('cobeca_backups_db', 'angelCobeca', 'Cobeca2024*
   } catch (error) {
     console.error('Unable to connect to the database:', error);
   }
+
+  export default sequelize
